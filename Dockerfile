@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.23rc2
 
 ADD . /go/src/spinnaker.io/demo/k8s-demo
 
